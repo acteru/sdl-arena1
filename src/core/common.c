@@ -162,7 +162,7 @@ void assert_ptr(void *ptr, char *msg, char *(*err_msg)())
  *
  *  @returns		random value
  */
-inline int random(int min, int max)
+int random(int min, int max)
 {
 	return rand() % (max - min) + min;
 }
@@ -176,7 +176,7 @@ inline int random(int min, int max)
  *  @param value	a float value
  *  @returns		rounded integer value
  */
-inline int fround(float value)
+int fround(float value)
 {
 	return (int)(value + 0.5f);
 }
@@ -189,7 +189,7 @@ inline int fround(float value)
  *
  *  @returns		vector with x and y values
  */
-inline Vector vrecti(int x, int y)
+Vector vrecti(int x, int y)
 {
 	Vector v = { x, y };
 	return v;
@@ -203,7 +203,7 @@ inline Vector vrecti(int x, int y)
  *
  *  @returns		vector with x and y values
  */
-inline VectorF vrect(float x, float y)
+VectorF vrect(float x, float y)
 {
 	VectorF v = { x, y };
 	return v;

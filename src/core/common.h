@@ -83,13 +83,13 @@ extern void application_quit();
 extern void assert_ret(int retval, int noerror, char *msg, char *(*err_msg)());
 extern void assert_ptr(void *ptr, char *msg, char *(*err_msg)());
 
-extern inline int random(int min, int max);
-extern inline int fround(float value);
+extern int random(int min, int max);
+extern int fround(float value);
 
 // --- Vectors ---
 
-extern inline Vector vrecti(int x, int y);
-extern inline VectorF vrect(float x, float y);
+extern Vector vrecti(int x, int y);
+extern VectorF vrect(float x, float y);
 
 // --- Text functions ---
 
