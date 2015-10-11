@@ -168,14 +168,14 @@ void explosion_init()
 	tmr_step = timer_create_interval(100, _explosion_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
-	s_explosion[0] = assert_sprite("sprites\\explosion5.png");
-	s_explosion[1] = assert_sprite("sprites\\explosion4.png");
-	s_explosion[2] = assert_sprite("sprites\\explosion3.png");
-	s_explosion[3] = assert_sprite("sprites\\explosion2.png");
-	s_explosion[4] = assert_sprite("sprites\\explosion1.png");
+	s_explosion[0] = assert_sprite("sprites/explosion5.png");
+	s_explosion[1] = assert_sprite("sprites/explosion4.png");
+	s_explosion[2] = assert_sprite("sprites/explosion3.png");
+	s_explosion[3] = assert_sprite("sprites/explosion2.png");
+	s_explosion[4] = assert_sprite("sprites/explosion1.png");
 
 	// Load samples
-	a_explosion = assert_sample("sounds\\explosion.ogg");
+	a_explosion = assert_sample("sounds/explosion.ogg");
 
 	// Initialize clips
 	Size sprite_size = { 60, 60 };

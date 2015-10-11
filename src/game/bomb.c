@@ -151,10 +151,10 @@ void bomb_init()
 	tmr_step = timer_create_interval(100, _bomb_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
-	s_bomb = assert_sprite("sprites\\bomb.png");
+	s_bomb = assert_sprite("sprites/bomb.png");
 
 	// Load samples
-	a_drop = assert_sample("sounds\\drop.ogg");
+	a_drop = assert_sample("sounds/drop.ogg");
 
 	// Initialize clips
 	Size sprite_size = { 60, 60 };

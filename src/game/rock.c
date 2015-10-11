@@ -66,7 +66,7 @@ void rock_init()
 	evt_gfx_draw = event_connect("gfx-draw", 0, _rock_evt_gfx_draw, NULL, EVENT_HANDLER_ENABLED);
 
 	// Load sprites
-	s_rock = assert_sprite("sprites\\rock.png");
+	s_rock = assert_sprite("sprites/rock.png");
 }
 
 /**

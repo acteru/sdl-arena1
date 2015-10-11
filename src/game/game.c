@@ -476,11 +476,11 @@ void game_init()
 
 	// Load sprites
 	s_screen = gfx_get_screen();
-	s_grass = assert_sprite("sprites\\grass.png");
-	s_rock = assert_sprite("sprites\\rock.png");
+	s_grass = assert_sprite("sprites/grass.png");
+	s_rock = assert_sprite("sprites/rock.png");
 
 	// Load fonts
-	f_default = assert_font("FreeSans.ttf", 200);
+	f_default = assert_font("fonts/FreeSans.ttf", 200);
 
 	// Render texts
 	SDL_Color color = { 255, 0, 0 };
@@ -490,9 +490,9 @@ void game_init()
 	s_gameover =	 TTF_RenderText_Solid(f_default, "Game Over", color);
 
 	// Load audio files
-	a_countdown1 = assert_sample("sounds\\countdown-a.ogg");
-	a_countdown2 = assert_sample("sounds\\countdown-b.ogg");
-	a_gameover =   assert_sample("sounds\\gameover.ogg");
+	a_countdown1 = assert_sample("sounds/countdown-a.ogg");
+	a_countdown2 = assert_sample("sounds/countdown-b.ogg");
+	a_gameover =   assert_sample("sounds/gameover.ogg");
 
 	// Init all sub-modules
 	bomberman_init();

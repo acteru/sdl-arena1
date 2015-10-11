@@ -93,10 +93,10 @@ void upgrade_init()
 	evt_explosion_hit = event_connect("explosion-hit", 0, _upgrade_evt_explosion_hit, NULL, EVENT_HANDLER_ENABLED);
 
 	// Load sprites
-	s_upgrade = assert_sprite("sprites\\upgrades.png");
+	s_upgrade = assert_sprite("sprites/upgrades.png");
 
 	// Load samples
-	a_pick = assert_sample("sounds\\pick.ogg");
+	a_pick = assert_sample("sounds/pick.ogg");
 
 	// Initialize clips
 	Size clip_size = { 60, 60 };

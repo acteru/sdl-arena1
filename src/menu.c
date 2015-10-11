@@ -79,7 +79,7 @@ void menu_init()
 	evt_sdl_key_down = event_connect("sdl-key-down", 0, _menu_evt_sdl_key_down, NULL, EVENT_HANDLER_DISABLED);
 	evt_scene_changed = event_connect("scene-changed", 0, _menu_evt_scene_changed, NULL, EVENT_HANDLER_ENABLED);
 
-	s_menu = assert_sprite("sprites\\menu.png");
+	s_menu = assert_sprite("sprites/menu.png");
 }
 
 void menu_destroy()

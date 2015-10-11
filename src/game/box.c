@@ -127,7 +127,7 @@ void box_init()
 	tmr_step = timer_create_interval(100, _box_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
-	s_box = assert_sprite("sprites\\box.png");
+	s_box = assert_sprite("sprites/box.png");
 
 	// Initialize clips
 	Size clip_size = { 60, 60 };

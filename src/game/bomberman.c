@@ -254,13 +254,13 @@ void bomberman_init()
 	tmr_step = timer_create_interval(20, _bomberman_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
-	s_bomberman[0] = assert_sprite("sprites\\bomberman1.png");
-	s_bomberman[1] = assert_sprite("sprites\\bomberman2.png");
-	s_bomberman[2] = assert_sprite("sprites\\bomberman3.png");
-	s_bomberman[3] = assert_sprite("sprites\\bomberman4.png");
+	s_bomberman[0] = assert_sprite("sprites/bomberman1.png");
+	s_bomberman[1] = assert_sprite("sprites/bomberman2.png");
+	s_bomberman[2] = assert_sprite("sprites/bomberman3.png");
+	s_bomberman[3] = assert_sprite("sprites/bomberman4.png");
 
 	// Load samples
-	a_step = assert_sample("sounds\\step.ogg");
+	a_step = assert_sample("sounds/step.ogg");
 
 	// Initialize clips
 	Size sprite_size = { 60, 90 };
