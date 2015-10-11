@@ -32,7 +32,6 @@
 #include "bomb.h"
 #include "explosion.h"
 
-#include "debug.h"
 
 #define BOMB_TIME		20						/**< time in 100ms until a bomb explodes */
 

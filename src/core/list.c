@@ -31,7 +31,6 @@
 #include <stdlib.h>
 #include "list.h"
 
-#include "debug.h"
 
 int list_alloc_count = 0;		/**< may be used for debugging */
 int list_free_count = 0;		/**< may be used for debugging */

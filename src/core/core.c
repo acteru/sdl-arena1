@@ -30,7 +30,6 @@
 #include "scene.h"
 #include "core.h"
 
-#include "debug.h"
 
 
 /**

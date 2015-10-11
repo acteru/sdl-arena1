@@ -28,7 +28,6 @@
 #include "core/core.h"
 #include "gfx.h"
 
-#include "debug.h"
 
 
 static SDL_Surface 		*screen;						/**< surface which is displayed */

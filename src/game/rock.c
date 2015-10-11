@@ -29,7 +29,6 @@
 #include "game.h"
 #include "rock.h"
 
-#include "debug.h"
 
 
 /**

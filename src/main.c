@@ -39,7 +39,6 @@
 #include "menu.h"
 #include "gfx.h"
 
-#include "debug.h"
 
 
 int main (int argc, char *argv[])

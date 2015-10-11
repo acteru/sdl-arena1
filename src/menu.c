@@ -27,7 +27,6 @@
 #include <SDL/SDL.h>
 #include "core/core.h"
 
-#include "debug.h"
 
 
 static int 			 evt_gfx_draw;									/**< id of the gfx-draw event handler */

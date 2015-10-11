@@ -32,7 +32,6 @@
 #include "explosion.h"
 #include "bomb.h"
 
-#include "debug.h"
 
 
 #define EXPLOSION_TIME	6

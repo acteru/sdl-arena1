@@ -28,7 +28,6 @@
 #include <string.h>
 #include "core.h"
 
-#include "debug.h"
 
 
 static List *l_state_stack = NULL;		/**< the stack containing the scenes */

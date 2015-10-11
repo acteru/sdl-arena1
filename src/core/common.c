@@ -32,7 +32,6 @@
 #include <SDL/SDL_mixer.h>
 #include "common.h"
 
-#include "debug.h"
 
 
 char		*app_path;

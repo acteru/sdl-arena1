@@ -30,7 +30,6 @@
 #include "list.h"
 #include "event.h"
 
-#include "debug.h"
 
 
 #define EVENT_NAME_MAX_LENGTH		32		/**< the maximum length of an event name (including null-terminator) */

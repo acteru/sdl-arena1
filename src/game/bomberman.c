@@ -33,7 +33,6 @@
 #include "bomb.h"
 #include "upgrade.h"
 
-#include "debug.h"
 
 /**
  * Struct used for all bomberman objects

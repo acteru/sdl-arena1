@@ -38,7 +38,6 @@
 #include "upgrade.h"
 #include "game.h"
 
-#include "debug.h"
 
 
 #define PADDING					50									/**< padding around the playfield in pixels */
