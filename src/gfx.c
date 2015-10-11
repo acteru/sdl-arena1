@@ -65,7 +65,7 @@ void gfx_init()
 	SDL_WM_SetCaption("Arena 1", "Arena 1");
 
 	// Initialize a timer for drawing (50 FPS)
-	tmr_draw = timer_create(20, _gfx_tmr_draw, NULL, TIMER_ENABLED);
+	tmr_draw = timer_create_interval(20, _gfx_tmr_draw, NULL, TIMER_ENABLED);
 }
 
 /**

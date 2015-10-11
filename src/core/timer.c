@@ -45,7 +45,7 @@ typedef struct {
 } TimerInfo;
 
 static List 	*l_timers = NULL;	/**< list of all existing timers */
-static int 		 next_id = 1;		/**< the id of the next timer created by the timer_create() function */
+static int 		 next_id = 1;		/**< the id of the next timer created by the timer_create_interval() function */
 
 static int 		 evt_sdl_user;		/**< id of the sdl-user event handler */
 
@@ -218,7 +218,7 @@ void timer_destroy()
  *
  *  @returns			the id of the created timer
  */
-int timer_create(int interval, TimerHandler handler, void *user_data, TimerState state)
+int timer_create_interval(int interval, TimerHandler handler, void *user_data, TimerState state)
 {
 	TimerInfo *timer;
 

@@ -148,7 +148,7 @@ void bomb_init()
 	evt_explosion_hit = event_connect("explosion-hit", 0, _bomb_evt_explosion_hit, NULL, EVENT_HANDLER_ENABLED);
 
 	// Initialize a timer bomb countdown
-	tmr_step = timer_create(100, _bomb_tmr_step, NULL, TIMER_ENABLED);
+	tmr_step = timer_create_interval(100, _bomb_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
 	s_bomb = assert_sprite("sprites\\bomb.png");

@@ -124,7 +124,7 @@ void box_init()
 	evt_explosion_hit = event_connect("explosion-hit", 0, _box_evt_explosion_hit, NULL, EVENT_HANDLER_ENABLED);
 
 	// Create timers
-	tmr_step = timer_create(100, _box_tmr_step, NULL, TIMER_ENABLED);
+	tmr_step = timer_create_interval(100, _box_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
 	s_box = assert_sprite("sprites\\box.png");

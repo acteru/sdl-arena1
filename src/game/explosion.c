@@ -165,7 +165,7 @@ void explosion_init()
 	evt_gfx_draw = event_connect("gfx-draw", 0, _explosion_evt_gfx_draw, NULL, EVENT_HANDLER_ENABLED);
 
 	// Initialize a timer for explosion countdown
-	tmr_step = timer_create(100, _explosion_tmr_step, NULL, TIMER_ENABLED);
+	tmr_step = timer_create_interval(100, _explosion_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
 	s_explosion[0] = assert_sprite("sprites\\explosion5.png");

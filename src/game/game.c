@@ -472,7 +472,7 @@ void game_init()
 	evt_bomberman_died = event_connect("bomberman-died", 0, _game_evt_bomberman_died, NULL, EVENT_HANDLER_DISABLED);
 
 	// Create timers
-	tmr_game_init = timer_create(1000, _game_tmr_game_init, NULL, TIMER_DISABLED);
+	tmr_game_init = timer_create_interval(1000, _game_tmr_game_init, NULL, TIMER_DISABLED);
 
 	// Load sprites
 	s_screen = gfx_get_screen();

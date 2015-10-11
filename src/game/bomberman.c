@@ -251,7 +251,7 @@ void bomberman_init()
 	evt_bomb_explode = event_connect("bomb-explode", 0, _bomberman_evt_bomb_explode, NULL, EVENT_HANDLER_ENABLED);
 
 	// Initialize timers
-	tmr_step = timer_create(20, _bomberman_tmr_step, NULL, TIMER_ENABLED);
+	tmr_step = timer_create_interval(20, _bomberman_tmr_step, NULL, TIMER_ENABLED);
 
 	// Load sprites
 	s_bomberman[0] = assert_sprite("sprites\\bomberman1.png");

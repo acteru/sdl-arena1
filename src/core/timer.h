@@ -39,7 +39,7 @@
 /**
  *  Prototype for a timer handler function.
  *
- *  @param user_data		data which was passed to the timer_create() function.
+ *  @param user_data		data which was passed to the timer_create_interval() function.
  */
 typedef void (*TimerHandler)(void *user_data);
 
@@ -54,7 +54,7 @@ typedef enum {
 extern void timer_init();
 extern void timer_destroy();
 
-extern int timer_create(int interval, TimerHandler handler, void *user_data, TimerState state);
+extern int timer_create_interval(int interval, TimerHandler handler, void *user_data, TimerState state);
 extern void timer_set_state(int id, TimerState state);
 extern void timer_set_interval(int id, int interval);
 extern void timer_set_user_data(int id, void* user_data);
