@@ -162,7 +162,7 @@ void assert_ptr(void *ptr, char *msg, char *(*err_msg)())
  *
  *  @returns		random value
  */
-int random(int min, int max)
+int rand2(int min, int max)
 {
 	return rand() % (max - min) + min;
 }

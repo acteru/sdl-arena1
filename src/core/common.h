@@ -83,7 +83,7 @@ extern void application_quit();
 extern void assert_ret(int retval, int noerror, char *msg, char *(*err_msg)());
 extern void assert_ptr(void *ptr, char *msg, char *(*err_msg)());
 
-extern int random(int min, int max);
+extern int rand2(int min, int max);
 extern int fround(float value);
 
 // --- Vectors ---

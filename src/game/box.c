@@ -241,7 +241,7 @@ int box_distribute(GameObject *content[], int n_content)
 		// Break, if there are no more empty boxes
 		if (empty_box_count <= 0) break;
 
-		box = (BoxObject *)list_nth(empty_boxes, random(0, empty_box_count - 1))->data;
+		box = (BoxObject *)list_nth(empty_boxes, rand2(0, empty_box_count - 1))->data;
 		box->content = content[i];
 		empty_boxes = list_remove(empty_boxes, box);
 
