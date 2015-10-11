@@ -2,7 +2,7 @@
 
 A little Bomberman clone programmed in C using SDL.
 
-We created this project on SourceForge as part of an exercicise during my studies. It was originally created with Eclipse for Windows. Now I moved this project to GitHub and ported it to a Makefile Linux application. I did this because I'd like to have everything in one place and because this project now serves as a sample SDL / Makefile / C application.
+We created this project on SourceForge as an exercise during my studies. It was originally developed with Eclipse for Windows. Now I moved this project to GitHub and ported it to a Makefile Linux application. I did this because I'd like to have everything in one place and because this project now serves as a sample SDL / Makefile / C application.
 
 ## Compiling
 
