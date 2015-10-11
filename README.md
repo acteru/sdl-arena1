@@ -22,3 +22,7 @@ We created this project on SourceForge as an exercise during my studies. It was 
 
 - Moving:       W, A, S, D
 - Place Bomb:   Tab
+
+## Screenshots
+
+![Screenshot](screenshot.png)
